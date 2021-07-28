@@ -15,3 +15,30 @@ body {
   height: 300px;
   margin: 20px;
 }
+
+.notes .tools {
+  background-color: darkmagenta;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.notes .tools button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.notes .main {
+  height: 100%;
+  width: 100%;
+}
+
+.notes textarea {
+  border: none;
+  height: 100%;
+  width: 100%;
+  outline: none;
+}
