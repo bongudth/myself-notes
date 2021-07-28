@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darksalmon;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+
+.notes {
+  background-color: white;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
